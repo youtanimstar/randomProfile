@@ -1,0 +1,37 @@
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    z-index: 1;
+}
+.card:hover{
+    transform: scale(1.05) translateY(-10px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.288);
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 700;
+    /* color: #333; */
+
+}
+.job{
+    font-size: 20px;
+    font-weight: 500;
+    color: #777777bd;
+}
